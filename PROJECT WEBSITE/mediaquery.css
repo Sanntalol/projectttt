@@ -1,0 +1,80 @@
+/* Tablet */
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: rgb(237, 198, 255);
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .logo {
+        flex-basis: 25%;
+
+    }
+
+    nav {
+        flex-basis: 75%;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        width: 100%;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    nav ul li {
+        flex: 1 0 30%;
+    }
+
+    nav ul li a {
+        font-size: 2rem;
+        font-weight: bold;
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+    nav ul li:last-child {
+        border: 2px solid whitesmoke;
+        border-radius: 1rem;
+        padding: .4rem;
+    }
+
+    .servcard {
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .service {
+        flex-basis: 30%;
+    }
+
+    .contact {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contact-info, form {
+        flex-basis: 50%;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+/* Laptop */
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: rgb(172, 164, 175);
+        color: white;
+    }
+}
